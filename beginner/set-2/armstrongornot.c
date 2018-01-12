@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int n,s=0,t,r=0,g=0,t1,d;
+scanf("%d",&n);
+if(n>999)
+{
+t=n;
+t1=n;
+while(t1!=0)
+{
+    t1=t1/10;
+    g++;
+}
+while(n!=0)
+{
+    r=n%10;
+    s=s+pow(r,g);
+    n=n/10;
+}
+(s==t)?printf("yes"):printf("no");
+}
+else
+{
+    d=n;
+    while(n!=0)
+{
+    r=n%10;
+    s=s+r*r*r;
+    n=n/10;
+}
+(s==d)?printf("yes"):printf("no");
+}
+}
