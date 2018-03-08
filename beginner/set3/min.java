@@ -2,7 +2,7 @@ package rith;
 
 import java.util.Scanner;
 
-public class Max {
+public class Min {
 public static void main(String args[])
 {
 	int max=99999;
