@@ -10,7 +10,7 @@ public class wordc{
      for(int i=0;i<d.length;i++){
          count++;
      }
-     System.out.println(count);
+     System.out.print(count);
     }
 
       
