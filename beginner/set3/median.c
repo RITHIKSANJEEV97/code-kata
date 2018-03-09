@@ -25,7 +25,7 @@ int main()
      }
      else
      {
-         printf("%d",a[(n-1)/2]);
+         printf("%d\n",a[(n-1)/2]);
      }
 	return 0;
 }
