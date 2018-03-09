@@ -12,7 +12,7 @@ public class spc {
             count++;
         }
      }
-     System.out.println(count);
+     System.out.print(count);
     }
 
       
