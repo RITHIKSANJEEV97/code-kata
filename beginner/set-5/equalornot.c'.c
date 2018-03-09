@@ -17,9 +17,9 @@ int main(){
      	s2=s2+a[i];
 	 }
 	 if(s1>s2){
-	 	printf("%s",a);
+	 	printf("%s\n",a);
 	 }
 	 else{
-	 	printf("%s",b);
+	 	printf("%s\n",b);
 	 }
 }
