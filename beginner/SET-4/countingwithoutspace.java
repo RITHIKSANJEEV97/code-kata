@@ -11,7 +11,7 @@ public class charc {
               count++;
           }
       }
-      System.out.println(count);
+      System.out.print(count);
     }
 
       
