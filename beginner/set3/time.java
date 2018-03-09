@@ -18,11 +18,11 @@ public class tim{
         if(dif2>60){
             h1=dif2/60;
             h2=dif2%60;
-            System.out.printf("%d %d",h1,h2);
+            System.out.print("%d %d",h1,h2);
 
         }
        else{
-            System.out.println(dif2);
+            System.out.print(dif2);
        }
 
 
