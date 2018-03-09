@@ -18,11 +18,11 @@ public class time1{
         if(dif2>60){
             h1=dif2/60;
             h2=dif2%60;
-            System.out.printf("%d %d",Math.abs(h1),Math.abs(h2));
+            System.out.print("%d %d",Math.abs(h1),Math.abs(h2));
 
         }
        else{
-            System.out.println(Math.abs(dif2));
+            System.out.print(Math.abs(dif2));
        }
 
 
