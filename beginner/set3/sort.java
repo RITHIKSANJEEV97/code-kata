@@ -13,7 +13,7 @@ public class sort{
        }
       Arrays.sort(a);
       for(int i=0;i<n;i++){
-          System.out.printf("%d ",a[i]);
+          System.out.println("%d",a[i]);
       }
        
       
