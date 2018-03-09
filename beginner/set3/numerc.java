@@ -6,10 +6,10 @@ public class num{
        Scanner s=new Scanner(System.in);
        d=s.next().charAt(0);
        if(d>='0'&&d<='9'){
-           System.out.println("Yes");
+           System.out.print("Yes");
        }
       else{
-           System.out.println("No");
+           System.out.print("No");
       }
       
       
