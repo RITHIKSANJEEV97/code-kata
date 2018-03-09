@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include<string.h>
 int main() 
 {
-	char a[1000];
+	char a[10000];
 	int n,i,count=1;
 	scanf("%[^\t\n]s",a);
 	n=strlen(a);
@@ -13,6 +12,6 @@ int main()
 	        count++;
 	    }
 	}
-	printf("%d\n",count);
+	printf("%d",count);
 	return 0;
 }
