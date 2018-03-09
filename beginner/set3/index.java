@@ -12,7 +12,6 @@ public class index{
         }
         for(int i=0;i<n;i++){
             System.out.printf("%d %d",a[i],i);
-            System.out.println();
         }
 
 
